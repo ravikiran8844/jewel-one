@@ -1,10 +1,12 @@
 import React from 'react'
-import Header from '../../components/Header'
+import NavBar from '../../components/NavBar'
+import AnnouncementBar from '../../components/AnnouncementBar'
+import VideoSection from '../../components/VideoSection'
 
 const Home = () => {
   return (
     <>
-    <Header/>
+    <VideoSection/>
     </>
     )
 }
