@@ -3,14 +3,14 @@ import './index.css'
 
 const VideoSection = () => {
   return (
-    <div className='video_wrapper'>
+    <div className='video_wrapper col-12'>
     <video className='video_item w-100 h-auto' mute poster="/home-video-banner.webp">
             <source src="movie.mp4" type="video/mp4"/>
             <source src="movie.ogg" type="video/ogg"/>
             Your browser does not support the video tag.
     </video>
     <div className='video_item_content container d-flex align-items-center'>
-        <div className='video_item_textBox d-none d-md-block'>
+        <div className='video_item_textBox d-none d-lg-block'>
             <div className='video_item_title fs-1 fw-bold'>
             A Journey Inside Our Dazzling Jewelry Factory!
             </div>

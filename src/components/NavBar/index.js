@@ -10,7 +10,7 @@ function NavBar() {
     <Navbar expand="xl" className="bg-white">
       <Container>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Brand><Link to="/"><img className='nav-logo' width={157} height={39} src="/logo.png" alt="Jewelone Logo" /></Link></Navbar.Brand>
+        <Navbar.Brand><Link to="/"><img className='nav-logo' width={300} height={77} src="/logo.png" alt="Jewelone Logo" /></Link></Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto flex gap-4">
             <div>
