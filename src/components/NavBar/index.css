@@ -1,6 +1,5 @@
-.navbar{
-    min-height: 87px;
-    width: 100%;
+.navbar_wrapper{
+    min-height: 93px;
 }
 nav a{
     color: #1F1F1F;
@@ -15,12 +14,13 @@ nav a{
     width: 100%;
     height: auto;
     max-width: 157px;
-    max-height: 39pxpx;
 }
 
 @media (min-width:768px) {
     .nav-logo{  
     max-width: 300px;
     max-height: 77px;
+    width: 100%;
+    height: auto;
     }
 }

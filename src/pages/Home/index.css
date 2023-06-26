@@ -1,0 +1,29 @@
+
+.main-title{
+    color: #9F212C;
+    font-size: 30px;
+    font-family: Canela Trial;
+}
+.main-text{
+    color: #282828;
+    font-size: 16px;
+    font-family: Optima;
+    line-height: 147%;
+    text-transform: capitalize;
+}
+@media (min-width:768px) {
+    .main-title{
+        color: #9F212C;
+        font-size: 54px;
+        font-family: Canela Trial;
+    }
+    .main-text{
+        color: #282828;
+        font-size: 20px;
+        font-family: Sharp Sans;
+        font-weight: 500;
+        line-height: 147%;
+        text-transform: capitalize;
+    }
+}
+

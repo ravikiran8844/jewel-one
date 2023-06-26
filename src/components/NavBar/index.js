@@ -7,7 +7,7 @@ import "./index.css"
 
 function NavBar() {
   return (
-    <Navbar expand="xl" className="bg-white">
+    <Navbar expand="xl" className="bg-white navbar_wrapper">
       <Container>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Brand><Link to="/"><img className='nav-logo' width={300} height={77} src="/logo.png" alt="Jewelone Logo" /></Link></Navbar.Brand>
